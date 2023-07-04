@@ -37,7 +37,7 @@ import org.springframework.web.client.HttpStatusCodeException;
 import org.springframework.web.client.RestTemplate;
 import org.springframework.web.context.annotation.ApplicationScope;
 
-@Path("/")
+@Path("/b")
 @ApplicationScope
 @Component
 @Produces(MediaType.TEXT_PLAIN)
